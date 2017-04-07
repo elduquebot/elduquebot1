@@ -1,2 +1,2 @@
 # elduquebot1
-Posts de blog
+Aqui se publica el codigo posteado en el blog.
