@@ -12,7 +12,7 @@ def sma(data, period):   #subfuncion para obtener el sma
     return sma1
 
 datos = pd.read_csv("goog.csv")  # se lee el csv
-datos = datos.iloc[::-1]  # aqui se giran las columnas para que esten en orden por fechas
+datos = datos.iloc[::-1]  # aqui se giran las filas para que esten en orden por fechas
 periodo = 100  # periodo del sma
 sma = sma(datos["Adj Close"], periodo)  # calculo del sma
 x = np.arange(0, len(datos["Adj Close"]))  # eje x para graficar
